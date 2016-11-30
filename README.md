@@ -21,7 +21,7 @@ Go 1.6 is required to build confd, which uses the new vendor directory.
 
 ```
 $ mkdir -p $GOPATH/src/github.com/hashcv
-$ git clone https://github.com/hashcv/confd.git $GOPATH/src/github.com/bacongobbler/confd
+$ git clone https://github.com/hashcv/confd.git $GOPATH/src/github.com/hashcv/confd
 $ cd $GOPATH/src/github.com/hashcv/confd
 $ ./build
 ```
