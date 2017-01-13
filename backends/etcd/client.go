@@ -33,7 +33,7 @@ func NewEtcdClient(machines []string, cert, key, caCert string, basicAuth bool, 
 	}
 
 	tlsConfig := &tls.Config{
-		InsecureSkipVerify: false,
+		InsecureSkipVerify: true,
 	}
 
 	cfg := client.Config{

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bacongobbler/confd/log"
+	"github.com/hashcv/confd/log"
 )
 
 var replacer = strings.NewReplacer("/", "_")

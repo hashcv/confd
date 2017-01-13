@@ -11,7 +11,7 @@ import (
 	"path"
 
 	vaultapi "github.com/hashicorp/vault/api"
-	"github.com/bacongobbler/confd/log"
+	"github.com/hashcv/confd/log"
 )
 
 // Client is a wrapper around the vault client

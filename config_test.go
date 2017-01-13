@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bacongobbler/confd/log"
+	"github.com/hashcv/confd/log"
 )
 
 func TestInitConfigDefaultConfig(t *testing.T) {
